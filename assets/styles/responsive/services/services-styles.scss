@@ -1,0 +1,148 @@
+@import "../base";
+
+/*
+  * Use => Desktop and Large Screen Tablet
+  * Sizes => 1920, 1400, 1200, 1024
+  * unit => PX
+  */
+@media (max-width: 1920px) {
+
+}
+
+@media (max-width: 1400px) {
+
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1024px) {
+  .layout {
+    .services-page {
+      .services-section {
+        &.keyboarda-services {
+          .block-services {
+            .services {
+              &__text {
+                padding: 0 130px;
+
+                br {
+                  display: none;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/*
+  * Use => Tablet Screen
+  * Sizes => 992, 768
+  * unit => PX
+  */
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+  .layout {
+    .services-page {
+      .get-consultation-section {
+        .shape-right-consultation{
+          visibility: hidden;
+        }
+        .text-content {
+          .consultation {
+            text-align: center;
+            margin-bottom: 80px;
+          }
+        }
+        .get-consultation{
+          padding-right: 0;
+        }
+      }
+      .services-section {
+        &.keyboarda-services {
+          .block-services {
+            .boxes{
+              .bottom-dotted {
+                left: -6px;
+                bottom: 5px;
+              }
+
+              .up-dotted {
+                right: -7px;
+                top: -22px;
+              }
+              .contentBox{
+                .textBox{
+                  &__excerpt{
+                    font-size: 14px;
+                  }
+                }
+              }
+            }
+            .services {
+              &__text {
+                padding: 0 48px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/*
+  * Use => Mobile Screen
+  * Sizes => 576, 414, 375
+  * unit => PX
+  */
+@media (max-width: 576px) {
+  .layout {
+    .services-page {
+      .keyboarda-services {
+        .left-shape-services{
+          visibility: hidden;
+        }
+        .block-services {
+          .services {
+            &__text {
+              text-align: justify;
+              padding: 0 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 414px) {
+  .layout {
+    .services-page {
+      .services-section {
+        &.keyboarda-services {
+          .block-services {
+            .services {
+              &__text {
+                padding: 0 42px;
+                text-align: justify;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width: 375px) {
+
+}

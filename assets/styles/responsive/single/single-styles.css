@@ -1,0 +1,165 @@
+/*
+  * Use => Desktop and Large Screen Tablet
+  * Sizes => 1920, 1400, 1200, 1024
+  * unit => PX
+  */
+@media (max-width: 1200px) {
+  /* Container Full Responsive */
+  .container {
+    min-width: 100%;
+    padding: 0 30px;
+  }
+}
+
+/*
+  * Use => Tablet Screen
+  * Sizes => 992, 767
+  * unit => PX
+  */
+@media (max-width: 992px) {
+  .index-body .modal_form .content .form-block {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+  }
+  .index-body .modal_form .content .form_img {
+    display: none;
+  }
+  .index-body .layout .text-content .knowMore,
+  .index-body .layout .text-content .consultation,
+  .index-body .layout .text-content .see-Services {
+    text-align: center;
+    margin-bottom: 50px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .index-body .layout .footer .footer-content {
+    padding: 40px 15px 10px;
+  }
+  .index-body .layout .footer .footer-content .footer-quick-links ul li {
+    padding-right: 20px;
+  }
+  .index-body .layout .footer .footer-content .social-links ul li {
+    padding-right: 20px;
+  }
+  .index-body .layout .text-content .knowMore,
+  .index-body .layout .text-content .consultation,
+  .index-body .layout .text-content .see-Services {
+    text-align: center;
+    margin-bottom: 80px !important;
+  }
+}
+
+/*
+  * Use => Mobile Screen
+  * Sizes => 576, 414, 375
+  * unit => PX
+  */
+@media (max-width: 576px) {
+  .index-body .modal_form .content {
+    width: 90%;
+    padding: 40px 20px 20px 20px;
+  }
+  .index-body .layout .footer .footer-content .footer-quick-links ul li {
+    padding: 0 5px;
+  }
+  .index-body .layout .footer .footer-content .social-links ul li {
+    padding: 0 10px;
+  }
+  .index-body .layout .footer .block-copyright .copyright-content .en-text {
+    display: none;
+  }
+  .index-body .layout .footer .block-copyright .copyright-content .fa-text {
+    text-align: center;
+  }
+}
+
+/*
+    * Use => Tablet Screen
+    * Sizes => 992, 767
+    * unit => PX
+*/
+@media (max-width: 768px) {
+  .single-wiki .article-block .post-content-block .overview-post {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .single-wiki .article-block .post-content-block .overview-post .thumbnail-article {
+    margin-bottom: 15px;
+  }
+  .single-wiki .article-block .post-content-block .overview-post .post-title h2 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    min-height: 35px;
+  }
+  .single-wiki .article-block .author-box-section {
+    text-align: center;
+  }
+  .single-wiki .article-block .author-box-section .col-author-box-content::before {
+    font-size: 80px;
+  }
+}
+
+/*
+    * Use => Mobile Screen
+    * Sizes => 576, 414, 375
+    * unit => PX
+    */
+@media (max-width: 576px) {
+  .single-wiki .article-block .post-content-block .overview-post .meta-post-info {
+    text-align: right;
+  }
+  .single-wiki .article-block .post-content-block .content-post h3 {
+    font-size: 17px;
+    line-height: 26px;
+    text-align: justify;
+  }
+  .single-wiki .article-block .post-content-block .content-post p {
+    margin-bottom: 25px;
+  }
+  .single-wiki .article-block .post-content-block .rating-block .title-rating,
+  .single-wiki .article-block .post-content-block .rating-block .starts {
+    font-size: 20px;
+    text-align: center;
+    margin: 8px 0;
+  }
+  .single-wiki .article-block .author-box-section .col-author-box-content {
+    padding: 5px 0 0 0;
+  }
+  .single-wiki .article-block .author-box-section .col-author-box-content .author-box-footer {
+    padding: 0;
+  }
+  .single-wiki .article-block .author-box-section .col-author-box-content .author-box-footer .social-icons-block {
+    text-align: center;
+  }
+  .single-wiki .article-block .author-box-section .col-author-box-content .author-box-footer .social-icons-block .social-label {
+    margin: 0;
+  }
+  .single-wiki .article-block .comment-layout .comment-list .comment-item .comment-inner {
+    padding: 20px;
+  }
+  .single-wiki .article-block .comment-layout .comment-list .comment-item .comment-inner .comment-heading {
+    text-align: center;
+  }
+  .single-wiki .article-block .comment-layout .comment-list .comment-item .comment-inner .comment-heading .comment-user-info {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .single-wiki .article-block .comment-layout .comment-list .comment-item .comment-inner .comment-heading .comment-result {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .single-wiki .article-block .comment-layout .comment-list .comment-item.replay {
+    padding-right: 20px;
+  }
+  .single-wiki .article-block .comment-layout .comment-form .field-block .submit-form {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=single-styles.css.map */

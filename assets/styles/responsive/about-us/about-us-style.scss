@@ -1,0 +1,102 @@
+@import "../base";
+
+/*
+  * Use => Desktop and Large Screen Tablet
+  * Sizes => 1920, 1400, 1200, 1024
+  * unit => PX
+  */
+@media (max-width: 1920px) {
+
+}
+
+@media (max-width: 1400px) {
+
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1024px) {
+  .layout {
+    .about-us-page {
+      .join-our-team {
+        .shape-left {
+          top: -100px;
+        }
+      }
+    }
+  }
+}
+
+/*
+  * Use => Tablet Screen
+  * Sizes => 992, 768
+  * unit => PX
+  */
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+  .layout {
+    .about-us-page {
+      /* all section heading */
+      .section-heading {
+        font-size: 22px;
+      }
+
+      /* all text content */
+      .text-content {
+        .excerpt {
+          text-align: justify;
+        }
+      }
+
+      /* About us section */
+      .about-us-section {
+        margin-bottom: 80px;
+
+        .shape-animate {
+          display: none;
+        }
+      }
+
+      /* Join our team */
+      .join-our-team {
+        .shape-left{
+          display: none;
+        }
+        .join-us-image {
+          margin-top: -70px;
+        }
+      }
+    }
+  }
+}
+
+/*
+  * Use => Mobile Screen
+  * Sizes => 576, 414, 375
+  * unit => PX
+  */
+@media (max-width: 576px) {
+
+}
+
+@media (max-width: 414px) {
+  .layout {
+    .about-us-page {
+      /* Join our team */
+      .join-our-team {
+        .join-us-image {
+          margin-top: -10px !important;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 375px) {
+
+}

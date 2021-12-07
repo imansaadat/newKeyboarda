@@ -1,0 +1,20 @@
+//
+// Optimizes fonts on webkit
+//
+@mixin optimize_font() {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+//
+// Remove optimizes fonts on webkit
+//
+@mixin delete_optimize_font() {
+  //-webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
+}
+
+@mixin inline_middle() {
+  display: inline-block;
+  vertical-align: middle;
+}

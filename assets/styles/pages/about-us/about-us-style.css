@@ -1,0 +1,66 @@
+/*
+* Color Palette
+*/
+.about-us-page {
+  margin-top: 150px;
+  /* About us section */
+  /* Join our team */
+}
+
+.about-us-page .about-us-section {
+  margin-bottom: 130px;
+  position: relative;
+}
+
+.about-us-page .about-us-section .about-us-images {
+  padding: 0 25px;
+}
+
+.about-us-page .about-us-section .about-us-images .image img {
+  max-width: 100%;
+}
+
+.about-us-page .about-us-section .text-content {
+  margin-bottom: 55px;
+  padding: 0 30px;
+}
+
+.about-us-page .about-us-section .shape-animate {
+  position: absolute;
+  left: 0;
+  z-index: -1;
+  -webkit-animation: pulse 3s ease infinite alternate, nudge 5s linear infinite alternate;
+  animation: pulse 3s ease infinite alternate, nudge 5s linear infinite alternate;
+}
+
+.about-us-page .about-us-section .shape-animate.shape-triangle-animate {
+  right: 0;
+  bottom: 200px;
+}
+
+.about-us-page .join-our-team {
+  margin-bottom: 70px;
+  position: relative;
+}
+
+.about-us-page .join-our-team .text-content {
+  padding: 0 30px;
+}
+
+.about-us-page .join-our-team .shape-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  -webkit-animation: pulse 2s ease infinite alternate;
+  animation: pulse 2s ease infinite alternate;
+}
+
+.about-us-page .join-our-team .join-us-image {
+  margin-top: -130px;
+}
+
+.about-us-page .join-our-team .join-us-image img {
+  width: 100%;
+}
+/*# sourceMappingURL=about-us-style.css.map */

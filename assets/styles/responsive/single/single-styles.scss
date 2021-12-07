@@ -1,0 +1,121 @@
+@import'../base';
+/*
+    * Use => Tablet Screen
+    * Sizes => 992, 767
+    * unit => PX
+*/
+@media (max-width: 992px) {
+}
+@media (max-width: 768px) {
+  .single-wiki {
+    .article-block {
+      .post-content-block {
+        .overview-post {
+          text-align: center;
+          margin-bottom: 20px;
+          .thumbnail-article{
+            margin-bottom:15px;
+          }
+          .post-title {
+            h2 {
+              font-size: 16px;
+              font-weight: 700;
+              line-height: 30px;
+              min-height: 35px;
+            }
+          }
+        }
+      }
+      .author-box-section {
+        text-align: center;
+        .col-author-box-content {
+          &::before {
+            font-size: 80px;
+          }
+        }
+      }
+    }
+  }
+}
+
+/*
+    * Use => Mobile Screen
+    * Sizes => 576, 414, 375
+    * unit => PX
+    */
+@media (max-width: 576px) {
+  .single-wiki {
+    .article-block {
+      .post-content-block {
+        .overview-post{
+          .meta-post-info{
+             text-align: right;
+          } 
+        }
+        .content-post {
+          h3 {
+            font-size: 17px;
+            line-height: 26px;
+            text-align: justify;
+          }
+          p {
+            margin-bottom: 25px;
+          }
+        }
+        .rating-block {
+          .title-rating,
+          .starts {
+            font-size: 20px;
+            text-align: center;
+            margin: 8px 0;
+          }
+        }
+      }
+      .author-box-section {
+        .col-author-box-content {
+          padding: 5px 0 0 0;
+          .author-box-footer {
+            padding: 0;
+            .social-icons-block {
+              text-align: center;
+              .social-label {
+                margin: 0;
+              }
+            }
+          }
+        }
+      }
+      .comment-layout {
+        .comment-list {
+          .comment-item {
+            .comment-inner {
+              padding: 20px;
+              .comment-heading {
+                text-align: center;
+                .comment-user-info {
+                  width: 100%;
+                  margin-bottom: 20px;
+                }
+                .comment-result {
+                  display: flex;
+                  justify-content: space-between;
+                }
+              }
+            }
+            &.replay {
+              padding-right: 20px;
+            }
+          }
+        }
+        .comment-form {
+          .field-block {
+            .submit-form {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+

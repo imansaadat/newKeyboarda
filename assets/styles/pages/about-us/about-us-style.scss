@@ -1,0 +1,64 @@
+@import "../../_sass/variable";
+@import "../../_sass/mixins";
+
+.about-us-page {
+  margin-top: 150px;
+  /* About us section */
+  .about-us-section {
+    margin-bottom: 130px;
+    position: relative;
+    .about-us-images {
+         padding: 0 25px;
+      .image {
+
+        img {
+          max-width: 100%;
+        }
+      }
+    }
+
+    .text-content {
+      margin-bottom:55px;
+      padding: 0 30px;
+    }
+
+    .shape-animate{
+      position: absolute;
+      left: 0;
+      z-index: -1;
+      -webkit-animation: pulse 3s ease infinite alternate, nudge 5s linear infinite alternate;
+      animation: pulse 3s ease infinite alternate, nudge 5s linear infinite alternate;
+      &.shape-triangle-animate{
+        right: 0;
+        bottom: 200px;
+      }
+    }
+  }
+/* Join our team */
+  .join-our-team{
+    margin-bottom: 70px;
+    position: relative;
+    .text-content {
+
+      padding: 0 30px;
+    }
+    .shape-left{
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      -webkit-animation: pulse 2s ease infinite alternate;
+      animation: pulse 2s ease infinite alternate;
+    }
+    .join-us-image{
+      margin-top: -130px;
+      img{
+       width: 100%;
+      }
+    }
+  }
+}
+
+
+
+

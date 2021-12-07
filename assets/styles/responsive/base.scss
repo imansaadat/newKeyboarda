@@ -1,0 +1,152 @@
+/*
+  * Use => Desktop and Large Screen Tablet
+  * Sizes => 1920, 1400, 1200, 1024
+  * unit => PX
+  */
+
+@media (max-width: 1920px) {
+
+}
+
+@media (max-width: 1440px) {
+
+}
+
+@media (max-width: 1200px) {
+  /* Container Full Responsive */
+  .container {
+    min-width: 100%;
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 1024px) {
+
+}
+
+/*
+  * Use => Tablet Screen
+  * Sizes => 992, 767
+  * unit => PX
+  */
+@media (max-width: 992px) {
+  .index-body {
+    .modal_form{
+      .content{
+        .form-block {
+          flex: 0 0 100%;
+        }
+        .form_img{
+          display: none;
+        }
+      }
+     }
+    .layout {
+      .text-content {
+        .knowMore,
+        .consultation,
+        .see-Services {
+          text-align: center;
+          margin-bottom: 50px !important;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .index-body {
+    .layout {
+      .footer {
+        .footer-content {
+          padding: 40px 15px 10px;
+
+          .footer-quick-links {
+            ul {
+              li {
+                padding-right: 20px;
+              }
+            }
+          }
+
+          .social-links {
+            ul {
+              li {
+                padding-right: 20px;
+              }
+            }
+          }
+        }
+      }
+      .text-content {
+        .knowMore,
+        .consultation,
+        .see-Services {
+          text-align: center;
+          margin-bottom: 80px !important;
+        }
+      }
+    }
+  }
+}
+
+
+/*
+  * Use => Mobile Screen
+  * Sizes => 576, 414, 375
+  * unit => PX
+  */
+@media (max-width: 576px) {
+  .index-body {
+    .modal_form{
+      .content{
+        width: 90%;
+        padding: 40px 20px 20px 20px;
+      }
+    }
+    .layout {
+      .footer {
+        .footer-content {
+
+          .footer-quick-links {
+            ul {
+              li {
+                padding: 0 5px;
+               
+              }
+            }
+          }
+
+          .social-links {
+            ul {
+              li {
+                padding: 0 10px;
+                
+              }
+            }
+          }
+        }
+
+        .block-copyright {
+          .copyright-content {
+            .en-text {
+              display: none;
+            }
+
+            .fa-text {
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 414px) {
+  
+}
+
+@media (max-width: 375px) {
+ 
+}

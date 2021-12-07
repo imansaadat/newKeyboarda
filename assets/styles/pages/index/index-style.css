@@ -1,0 +1,754 @@
+/*
+* Color Palette
+*/
+@import url(https://fonts.googleapis.com/css?family=Roboto:700,400,300);
+.main-page {
+  margin-top: 120px;
+  /* keyboarda team section */
+  /* services section */
+  /* keyboarda operation */
+  /* latest project */
+  /* keyboarda skills */
+  /* why keyboarda section */
+  /*customers viewpoint*/
+  /* Consulting demand */
+  /* technology Brand Carousel */
+}
+
+.main-page .keyboarda-team-section {
+  position: relative;
+  margin-bottom: 150px;
+}
+
+.main-page .keyboarda-team-section .keyboarda-team .keyboardaTeam {
+  padding-top: 40px;
+}
+
+.main-page .keyboarda-team-section .keyboarda-team .keyboardaTeam__image {
+  width: 100%;
+}
+
+.main-page .keyboarda-team-section .dotted-shape {
+  position: absolute;
+  top: 89px;
+  right: 0;
+  z-index: -1;
+}
+
+.main-page .keyboarda-team-section .shape-top-left {
+  position: absolute;
+  top: 130px;
+  left: -20px;
+  z-index: -1;
+}
+
+.main-page .services-section .solar-system {
+  position: absolute;
+  left: -270px;
+  top: -186px;
+  z-index: -2;
+  opacity: 0.5;
+  -webkit-animation: solarSystem 290s linear infinite;
+          animation: solarSystem 290s linear infinite;
+}
+
+@-webkit-keyframes solarSystem {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes solarSystem {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.main-page .keyboarda-operation {
+  margin-bottom: 150px;
+  position: relative;
+}
+
+.main-page .keyboarda-operation .operation-keyboarda-block {
+  padding: 40px 0;
+  text-align: center;
+  background-color: #e6e6f2;
+  border-radius: 5px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.main-page .keyboarda-operation .operation-keyboarda-block .operation {
+  display: inline-block;
+}
+
+.main-page .keyboarda-operation .operation-keyboarda-block .operation__icon {
+  display: inline-block;
+  margin-bottom: 18px;
+}
+
+.main-page .keyboarda-operation .operation-keyboarda-block .operation__icon img {
+  width: 100%;
+  max-width: 140px;
+  min-height: 140px;
+}
+
+.main-page .keyboarda-operation .operation-keyboarda-block .operation__number {
+  display: block;
+  margin-bottom: 18px;
+  font-size: 32px;
+  font-weight: 700;
+  color: #575a89;
+}
+
+.main-page .keyboarda-operation .operation-keyboarda-block .operation__text {
+  color: #2f2e41;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.main-page .keyboarda-operation .circle-shape-left {
+  position: absolute;
+  left: -184px;
+  top: 70px;
+  z-index: -1;
+}
+
+.main-page .latest-project-keyboarda {
+  margin-bottom: 145px;
+  position: relative;
+}
+
+.main-page .latest-project-keyboarda .section-heading {
+  margin-bottom: 40px;
+}
+
+.main-page .latest-project-keyboarda .block-latest-project {
+  background: #324b6b;
+  background: -webkit-gradient(linear, left top, right top, from(#324b6b), color-stop(52%, #0b1e5f), to(#3dc8e9));
+  background: linear-gradient(90deg, #324b6b 0%, #0b1e5f 52%, #3dc8e9 100%);
+  padding: 50px 100px 50px;
+}
+
+.main-page .latest-project-keyboarda .block-latest-project .swiper-container-project {
+  width: 100%;
+  height: 100%;
+  padding: 25px 0;
+}
+
+.main-page .latest-project-keyboarda .block-latest-project .swiper-container-project .swiper-bullet {
+  position: relative;
+  text-align: center;
+  bottom: -30px;
+}
+
+.main-page .latest-project-keyboarda .block-latest-project .swiper-container-project .swiper-bullet .swiper-pagination-bullet {
+  background-color: #dedee0;
+}
+
+.main-page .latest-project-keyboarda .block-latest-project .swiper-container-project .swiper-bullet .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: #ffffff;
+}
+
+.main-page .latest-project-keyboarda .block-latest-project .swiper-container-project .swiper-wrapper .swiper-slide {
+  width: 350px !important;
+}
+
+.main-page .latest-project-keyboarda .block-latest-project .swiper-container-project .swiper-wrapper .swiper-slide .item-inner {
+  padding: 35px 35px 28px;
+  border: 1px solid #e1e1e1;
+  background-color: #ffffff;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.24);
+  -webkit-box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.24);
+  border-radius: 5px;
+  text-align: center;
+}
+
+.main-page .latest-project-keyboarda .block-latest-project .swiper-container-project .swiper-wrapper .swiper-slide .item-inner img {
+  width: 100%;
+  max-height: 250px;
+  border: 3px solid #ffffff;
+  border-radius: 6px;
+  margin-bottom: 25px;
+}
+
+.main-page .latest-project-keyboarda .block-latest-project .swiper-container-project .swiper-wrapper .swiper-slide .item-inner .see-project-btn {
+  background-color: #324b6b;
+  display: inline-block;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 12px 65px;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.main-page .latest-project-keyboarda .block-latest-project .swiper-container-project .swiper-wrapper .swiper-slide .item-inner .see-project-btn:hover {
+  padding: 12px 80px;
+  background-color: #0b1e5f;
+  border: 1px solid transparent;
+}
+
+.main-page .keyboarda-skills-section {
+  margin-bottom: 150px;
+  position: relative;
+}
+
+.main-page .keyboarda-skills-section .circle-shape-right {
+  position: absolute;
+  z-index: -1;
+  top: -190px;
+  right: -85px;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.main-page .keyboarda-skills-section .content-box {
+  background: #ffffff url("../../../images/base/index/section5/keyboarda-team-skills.png") no-repeat center/cover;
+  min-height: 435px;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0px 8px 24px rgba(149, 157, 165, 0.2);
+  -webkit-box-shadow: 0px 8px 24px rgba(149, 157, 165, 0.2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-page .keyboarda-skills-section .content-box .section-heading {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.main-page .keyboarda-skills-section .content-box .skills .skill-name {
+  color: #333;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.main-page .keyboarda-skills-section .content-box .skills .progress--circle {
+  position: relative;
+  margin: 1rem;
+  width: 152px;
+  height: 152px;
+  border-radius: 50%;
+  background-color: #ddd;
+}
+
+.main-page .keyboarda-skills-section .content-box .skills .progress--circle:before {
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 122px;
+  height: 122px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.main-page .keyboarda-skills-section .content-box .skills .progress--circle:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #3dc8e9;
+}
+
+.main-page .keyboarda-skills-section .content-box .skills .progress__number {
+  position: absolute;
+  top: 52%;
+  width: 100%;
+  line-height: 1;
+  margin-top: -0.75rem;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #777;
+}
+
+.main-page .keyboarda-skills-section .content-box .progress--bar.progress--0:after {
+  width: 0%;
+}
+
+.main-page .keyboarda-skills-section .content-box .progress--circle.progress--0:after {
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, #ddd), color-stop(50%, transparent), to(transparent)), -webkit-gradient(linear, left top, right top, color-stop(50%, #3dc8e9), color-stop(50%, #ddd), to(#ddd));
+  background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(90deg, #3dc8e9 50%, #ddd 50%, #ddd);
+}
+
+.main-page .keyboarda-skills-section .content-box .progress--bar.progress--5:after {
+  width: 5%;
+}
+
+.main-page .keyboarda-skills-section .content-box .progress--circle.progress--5:after {
+  background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(108deg, #3dc8e9 50%, #ddd 50%, #ddd);
+}
+
+.main-page .keyboarda-skills-section .content-box .progress--bar.progress--10:after {
+  width: 10%;
+}
+
+.main-page .keyboarda-skills-section .content-box .progress--circle.progress--10:after {
+  background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(126deg, #3dc8e9 50%, #ddd 50%, #ddd);
+}
+
+.main-page .keyboarda-skills-section .content-box .progress--bar.progress--15:after {
+  width: 15%;
+}
+
+.main-page .keyboarda-skills-section .content-box .progress--circle.progress--15:after {
+  background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(144deg, #3dc8e9 50%, #ddd 50%, #ddd);
+}
+
+.main-page .keyboarda-skills-section .content-box .progress--bar.progress--20:after {
+  width: 20%;
+}
+
+.main-page .keyboarda-skills-section .content-box .progress--circle.progress--20:after {
+  background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(162deg, #3dc8e9 50%, #ddd 50%, #ddd);
+}
+
+.main-page .keyboarda-skills-section .content-box .progress--bar.progress--25:after {
+  width: 25%;
+}
+
+.main-page .keyboarda-skills-section .content-box .progress--circle.progress--25:after {
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, #ddd), color-stop(50%, transparent), to(transparent)), -webkit-gradient(linear, left top, left bottom, color-stop(50%, #3dc8e9), color-stop(50%, #ddd), to(#ddd));
+  background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(180deg, #3dc8e9 50%, #ddd 50%, #ddd);
+}
+
+.main-page .keyboarda-skills-section .content-box .progress--bar.progress--30:after {
+  width: 30%;
+}
+
+.main-page .keyboarda-skills-section .content-box .progress--circle.progress--30:after {
+  background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(198deg, #3dc8e9 50%, #ddd 50%, #ddd);
+}
+
+.main-page .keyboarda-skills-section .content-box .progress--bar.progress--35:after {
+  width: 35%;
+}
+
+.main-page .keyboarda-skills-section .content-box .progress--circle.progress--35:after {
+  background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(216deg, #3dc8e9 50%, #ddd 50%, #ddd);
+}
+
+.main-page .keyboarda-skills-section .content-box .progress--bar.progress--40:after {
+  width: 40%;
+}
+
+.main-page .keyboarda-skills-section .content-box .progress--circle.progress--40:after {
+  background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(234deg, #3dc8e9 50%, #ddd 50%, #ddd);
+}
+
+.main-page .keyboarda-skills-section .content-box .progress--bar.progress--45:after {
+  width: 45%;
+}
+
+.main-page .keyboarda-skills-section .content-box .progress--circle.progress--45:after {
+  background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(252deg, #3dc8e9 50%, #ddd 50%, #ddd);
+}
+
+.main-page .keyboarda-skills-section .content-box .progress--bar.progress--50:after {
+  width: 50%;
+}
+
+.main-page .keyboarda-skills-section .content-box .progress--circle.progress--50:after {
+  background-image: -webkit-gradient(linear, right top, left top, color-stop(50%, #3dc8e9), color-stop(50%, transparent), to(transparent)), -webkit-gradient(linear, right top, left top, color-stop(50%, #3dc8e9), color-stop(50%, #ddd), to(#ddd));
+  background-image: linear-gradient(-90deg, #3dc8e9 50%, transparent 50%, transparent), linear-gradient(270deg, #3dc8e9 50%, #ddd 50%, #ddd);
+}
+
+.main-page .keyboarda-skills-section .content-box .progress--bar.progress--55:after {
+  width: 55%;
+}
+
+.main-page .keyboarda-skills-section .content-box .progress--circle.progress--55:after {
+  background-image: linear-gradient(-72deg, #3dc8e9 50%, transparent 50%, transparent), linear-gradient(270deg, #3dc8e9 50%, #ddd 50%, #ddd);
+}
+
+.main-page .keyboarda-skills-section .content-box .progress--bar.progress--60:after {
+  width: 60%;
+}
+
+.main-page .keyboarda-skills-section .content-box .progress--circle.progress--60:after {
+  background-image: linear-gradient(-54deg, #3dc8e9 50%, transparent 50%, transparent), linear-gradient(270deg, #3dc8e9 50%, #ddd 50%, #ddd);
+}
+
+.main-page .keyboarda-skills-section .content-box .progress--bar.progress--65:after {
+  width: 65%;
+}
+
+.main-page .keyboarda-skills-section .content-box .progress--circle.progress--65:after {
+  background-image: linear-gradient(-36deg, #3dc8e9 50%, transparent 50%, transparent), linear-gradient(270deg, #3dc8e9 50%, #ddd 50%, #ddd);
+}
+
+.main-page .keyboarda-skills-section .content-box .progress--bar.progress--70:after {
+  width: 70%;
+}
+
+.main-page .keyboarda-skills-section .content-box .progress--circle.progress--70:after {
+  background-image: linear-gradient(-18deg, #3dc8e9 50%, transparent 50%, transparent), linear-gradient(270deg, #3dc8e9 50%, #ddd 50%, #ddd);
+}
+
+.main-page .keyboarda-skills-section .content-box .progress--bar.progress--75:after {
+  width: 75%;
+}
+
+.main-page .keyboarda-skills-section .content-box .progress--circle.progress--75:after {
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(50%, #3dc8e9), color-stop(50%, transparent), to(transparent)), -webkit-gradient(linear, right top, left top, color-stop(50%, #3dc8e9), color-stop(50%, #ddd), to(#ddd));
+  background-image: linear-gradient(0deg, #3dc8e9 50%, transparent 50%, transparent), linear-gradient(270deg, #3dc8e9 50%, #ddd 50%, #ddd);
+}
+
+.main-page .keyboarda-skills-section .content-box .progress--bar.progress--80:after {
+  width: 80%;
+}
+
+.main-page .keyboarda-skills-section .content-box .progress--circle.progress--80:after {
+  background-image: linear-gradient(18deg, #3dc8e9 50%, transparent 50%, transparent), linear-gradient(270deg, #3dc8e9 50%, #ddd 50%, #ddd);
+}
+
+.main-page .keyboarda-skills-section .content-box .progress--bar.progress--85:after {
+  width: 85%;
+}
+
+.main-page .keyboarda-skills-section .content-box .progress--circle.progress--85:after {
+  background-image: linear-gradient(36deg, #3dc8e9 50%, transparent 50%, transparent), linear-gradient(270deg, #3dc8e9 50%, #ddd 50%, #ddd);
+}
+
+.main-page .keyboarda-skills-section .content-box .progress--bar.progress--90:after {
+  width: 90%;
+}
+
+.main-page .keyboarda-skills-section .content-box .progress--circle.progress--90:after {
+  background-image: linear-gradient(54deg, #3dc8e9 50%, transparent 50%, transparent), linear-gradient(270deg, #3dc8e9 50%, #ddd 50%, #ddd);
+}
+
+.main-page .keyboarda-skills-section .content-box .progress--bar.progress--95:after {
+  width: 95%;
+}
+
+.main-page .keyboarda-skills-section .content-box .progress--circle.progress--95:after {
+  background-image: linear-gradient(72deg, #3dc8e9 50%, transparent 50%, transparent), linear-gradient(270deg, #3dc8e9 50%, #ddd 50%, #ddd);
+}
+
+.main-page .keyboarda-skills-section .content-box .progress--bar.progress--100:after {
+  width: 100%;
+}
+
+.main-page .keyboarda-skills-section .content-box .progress--circle.progress--100:after {
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, #3dc8e9), color-stop(50%, transparent), to(transparent)), -webkit-gradient(linear, right top, left top, color-stop(50%, #3dc8e9), color-stop(50%, #ddd), to(#ddd));
+  background-image: linear-gradient(90deg, #3dc8e9 50%, transparent 50%, transparent), linear-gradient(270deg, #3dc8e9 50%, #ddd 50%, #ddd);
+}
+
+.main-page .why-keyboarda-section {
+  margin-bottom: 150px;
+  position: relative;
+}
+
+.main-page .why-keyboarda-section:after {
+  content: "";
+  position: absolute;
+  background-image: radial-gradient(circle 324px at center, rgba(10, 40, 48, 0.15) 0, rgba(11, 46, 54, 0) 100%);
+  margin-right: -190px;
+  width: 650px;
+  height: 650px;
+  right: 100%;
+  top: 120px;
+  z-index: -2;
+}
+
+.main-page .why-keyboarda-section .whyKeyboarda {
+  padding-right: 50px;
+}
+
+.main-page .why-keyboarda-section .whyKeyboarda__image {
+  width: 100%;
+}
+
+.main-page .why-keyboarda-section .shape-on-text {
+  position: absolute;
+  top: -40px;
+  right: 50px;
+  z-index: -2;
+}
+
+.main-page .customers-viewpoint-section {
+  margin-bottom: 150px;
+  position: relative;
+}
+
+.main-page .customers-viewpoint-section .multiple-circle {
+  position: absolute;
+  top: 0;
+  right: -44px;
+  z-index: -1;
+}
+
+.main-page .customers-viewpoint-section .section-heading {
+  margin-bottom: 20px;
+}
+
+.main-page .customers-viewpoint-section .block-customer .customer-swiper {
+  margin: 0 -257px;
+  padding: 25px 0;
+}
+
+.main-page .customers-viewpoint-section .block-customer .customer-swiper .swiper-slide {
+  padding: 0;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  opacity: .4;
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+}
+
+.main-page .customers-viewpoint-section .block-customer .customer-swiper .swiper-slide.swiper-slide-active {
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.main-page .customers-viewpoint-section .block-customer .customer-swiper .swiper-slide.swiper-slide-active .customers__viewpoint {
+  opacity: 1;
+}
+
+.main-page .customers-viewpoint-section .block-customer .customer-swiper .swiper-slide .customers {
+  position: relative;
+  min-height: 300px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 29px 25px 40px 25px;
+  border: 1px solid #ffffff;
+  text-align: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.main-page .customers-viewpoint-section .block-customer .customer-swiper .swiper-slide .customers:after {
+  content: "\e817";
+  font-family: fontello !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  line-height: 1;
+  position: absolute;
+  color: #e3e3e3;
+  font-size: 24px;
+  left: 30px;
+  bottom: 20px;
+}
+
+.main-page .customers-viewpoint-section .block-customer .customer-swiper .swiper-slide .customers:before {
+  content: "\e816";
+  font-family: fontello !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  line-height: 1;
+  position: absolute;
+  color: #e3e3e3;
+  font-size: 24px;
+  right: 30px;
+  bottom: 20px;
+}
+
+.main-page .customers-viewpoint-section .block-customer .customer-swiper .swiper-slide .customers__picture {
+  margin-bottom: 15px;
+}
+
+.main-page .customers-viewpoint-section .block-customer .customer-swiper .swiper-slide .customers__picture img {
+  max-width: 100%;
+}
+
+.main-page .customers-viewpoint-section .block-customer .customer-swiper .swiper-slide .customers__info {
+  margin-bottom: 15px;
+}
+
+.main-page .customers-viewpoint-section .block-customer .customer-swiper .swiper-slide .customers__info .name {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.main-page .customers-viewpoint-section .block-customer .customer-swiper .swiper-slide .customers__viewpoint {
+  opacity: 0.2;
+}
+
+.main-page .customers-viewpoint-section .block-customer .customer-swiper .swiper-slide .customers__viewpoint .excerpt {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.main-page .customers-viewpoint-section .block-customer .customer-swiper .swiper-slide .customers__rateStar .filled-star {
+  color: #ba9f79;
+}
+
+.main-page .customers-viewpoint-section .block-customer .customer-swiper .swiper-pagination {
+  bottom: -42px;
+  left: 0;
+  width: 100%;
+}
+
+.main-page .customers-viewpoint-section .block-customer .customer-swiper .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: #324b6b;
+  width: 16px;
+  height: 9px;
+}
+
+.main-page .Consulting-demand-section {
+  margin-bottom: 100px;
+  background: url("../../../images/base/index/section8/consultation.jpg") no-repeat center/cover;
+  background-size: 101%;
+  padding: 72px 80px 50px;
+  min-height: 260px;
+  position: relative;
+  background-attachment: fixed;
+}
+
+.main-page .Consulting-demand-section:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(35, 40, 60, 0.9);
+}
+
+.main-page .Consulting-demand-section .consultation__title {
+  margin-bottom: 22px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.main-page .Consulting-demand-section .consultation__text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: justify;
+  margin: 0;
+}
+
+.main-page .Consulting-demand-section .consultation-btn .demand-btn {
+  display: inline-block;
+  padding: 12px 55px;
+  background-color: #ffffff;
+  color: #0b1e5f;
+  border-radius: 25px;
+  font-size: 17px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.main-page .Consulting-demand-section .consultation-btn .demand-btn:hover {
+  opacity: 0.9;
+}
+
+.main-page .technology-carousel-section {
+  position: relative;
+  z-index: 1;
+  margin: 50px 0 30px 0;
+}
+
+.main-page .technology-carousel-section .section-heading {
+  margin-bottom: 31px;
+}
+
+.main-page .technology-carousel-section .technology-carousel-block {
+  position: relative;
+}
+
+.main-page .technology-carousel-section .technology-carousel-block:before, .main-page .technology-carousel-section .technology-carousel-block:after {
+  position: absolute;
+  z-index: 2;
+  pointer-events: none;
+  content: "";
+  top: 0;
+  bottom: 0;
+  width: 226px;
+}
+
+.main-page .technology-carousel-section .technology-carousel-block:before {
+  right: 0;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), to(#ffffff));
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, #ffffff 100%);
+}
+
+.main-page .technology-carousel-section .technology-carousel-block:after {
+  left: 0;
+  background-image: -webkit-gradient(linear, left top, right top, from(#ffffff), to(rgba(255, 255, 255, 0)));
+  background-image: linear-gradient(to right, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.main-page .technology-carousel-section .technology-carousel-block .technology-carousel {
+  margin: 0 -146px;
+}
+
+.main-page .technology-carousel-section .technology-carousel-block .technology-carousel .swiper-wrapper .swiper-slide {
+  max-width: 200px;
+}
+
+.main-page .technology-carousel-section .technology-carousel-block .technology-carousel .swiper-wrapper .swiper-slide .item-inner {
+  margin: 20px 0 50px;
+  background: #ffffff;
+  border-radius: 10px;
+  width: 100%;
+  height: 85px;
+  line-height: 85px;
+  display: inline-block;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  text-align: center;
+  border: 1px solid #f1f1f1;
+  cursor: pointer;
+}
+
+.main-page .technology-carousel-section .technology-carousel-block .technology-carousel .swiper-wrapper .swiper-slide .item-inner:hover {
+  -webkit-box-shadow: 0 6px 30px -5px rgba(0, 0, 0, 0.12);
+          box-shadow: 0 6px 30px -5px rgba(0, 0, 0, 0.12);
+}
+
+.main-page .technology-carousel-section .technology-carousel-block .technology-carousel-arrow {
+  z-index: 3;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.main-page .technology-carousel-section .technology-carousel-block .technology-carousel-arrow .icon {
+  font-size: 29px;
+}
+
+.main-page .technology-carousel-section .technology-carousel-block .technology-carousel-arrow.button-next {
+  top: 44px;
+  left: 35px;
+}
+
+.main-page .technology-carousel-section .technology-carousel-block .technology-carousel-arrow.button-prev {
+  right: 35px;
+  top: 44px;
+}
+
+.main-page .technology-carousel-section .technology-carousel-block .technology-carousel-arrow:hover {
+  color: #5069fc;
+}
+/*# sourceMappingURL=index-style.css.map */

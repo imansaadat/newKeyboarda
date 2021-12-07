@@ -1,0 +1,85 @@
+@use "../../_sass/variable" as *;
+@use "../../_sass/mixins" as *;
+/* footer*/
+.footer {
+  position: relative;
+
+  .footer-content {
+    background-color: #23283C;
+    padding: 40px 50px 10px;
+
+    .footer-logo {
+      text-align: center;
+      margin-bottom: 30px;
+
+      a {
+        img {
+          width: 100%;
+          max-width: 85px;
+        }
+      }
+    }
+
+    .footer-quick-links, .social-links {
+      margin-bottom: 30px;
+      text-align: center;
+
+      ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+
+        li {
+          text-align: center;
+          display: inline-block;
+          padding:0 18px;
+
+          a {
+            font-size: 12px;
+            font-weight: 600;
+            transition: .3s;
+            color: rgba(255, 255, 255, .75);
+
+            &:hover {
+              color: $Light_Color;
+            }
+          }
+        }
+      }
+    }
+
+    .social-links {
+      ul {
+
+        li {
+          color: $Title_color;
+          padding:0 3px !important;
+          transition: .3s;
+
+          a {
+            .icon {
+              font-size: 17px;
+              &.icon-telegram{
+                font-size: 16px;
+              }
+            }
+
+            &:hover {
+              color: $Light_Color;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .block-copyright {
+    background-color: #16182c;
+
+    .copyright-content {
+      color: rgba(255, 255, 255, .75);
+      font-size: 12px;
+      padding: 15px 0 14px;
+    }
+  }
+}

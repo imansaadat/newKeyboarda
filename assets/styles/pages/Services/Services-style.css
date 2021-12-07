@@ -1,0 +1,59 @@
+/*
+* Color Palette
+*/
+.services-page {
+  margin-top: 150px;
+  /*keyboarda-services*/
+  /*get consultation*/
+}
+
+.services-page .services-section.keyboarda-services {
+  margin-top: 150px;
+  margin-bottom: 120px;
+  position: relative;
+}
+
+.services-page .services-section.keyboarda-services .left-shape-services {
+  position: absolute;
+  max-width: 300px;
+  max-height: 300px;
+  top: -104px;
+  left: -85px;
+  z-index: -1;
+}
+
+.services-page .services-section.keyboarda-services .block-services .services {
+  margin-bottom: 70px;
+}
+
+.services-page .services-section.keyboarda-services .block-services .services__text {
+  font-size: 16px;
+  color: #000000;
+  line-height: 28px;
+  text-align: center;
+  margin: 0;
+  padding: 0 200px;
+}
+
+.services-page .get-consultation-section {
+  margin-bottom: 120px;
+  position: relative;
+}
+
+.services-page .get-consultation-section .shape-right-consultation {
+  position: absolute;
+  max-width: 300px;
+  max-height: 300px;
+  top: -20px;
+  right: -50px;
+  z-index: -1;
+}
+
+.services-page .get-consultation-section .get-consultation {
+  padding-right: 100px;
+}
+
+.services-page .get-consultation-section .get-consultation__image {
+  max-width: 100%;
+}
+/*# sourceMappingURL=Services-style.css.map */

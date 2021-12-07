@@ -1,0 +1,280 @@
+@import"../base";
+/*
+  * Use => Desktop and Large Screen Tablet
+  * Sizes => 1920, 1400, 1200, 1024
+  * unit => PX
+  */
+@media (max-width: 1920px) {
+
+}
+
+@media (max-width: 1400px) {
+
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1024px) {
+  .main-page {
+    .keyboarda-team-section {
+      .dotted-shape {
+        display: none;
+      }
+    }
+
+    .services-section {
+      .block-services {
+        .text-content {
+          padding: 40px;
+        }
+      }
+    }
+
+    .latest-project-keyboarda {
+      margin: 0 -100px 70px;
+    }
+
+  }
+}
+
+/*
+  * Use => Tablet Screen
+  * Sizes => 992, 768
+  * unit => PX
+  */
+@media (max-width: 992px) {
+  .main-page {
+    .Consulting-demand-section {
+      .consultation-btn {
+        margin-top: 10px;
+        text-align: center;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .layout {
+    .main-page {
+      /* keyboarda-team */
+      .keyboarda-team-section {
+        margin-bottom: 100px;
+
+      }
+
+      /* services section */
+      .services-section {
+        margin-bottom: 70px;
+
+        .solar-system {
+          display: none;
+        }
+
+        .block-services {
+
+          .boxes {
+            .bottom-dotted {
+              left: -7px;
+              bottom: 7px;
+            }
+
+            .up-dotted {
+              right: -7px;
+              top: -23px;
+            }
+            .contentBox{
+              .textBox{
+                &__excerpt{
+                  font-size: 14px;
+                }
+              }
+            }
+          }
+
+          .text-content {
+            padding: 0;
+          }
+        }
+      }
+
+      /* keyboarda operation  */
+      .keyboarda-operation {
+        margin-bottom: 70px;
+
+        .circle-shape-left {
+          display: none;
+        }
+
+        .operation-keyboarda-block {
+          padding: 40px 0 10px;
+
+          .operation {
+            &__info {
+              margin-bottom: 45px;
+            }
+
+            &__icon {
+              margin-bottom: 10px;
+            }
+
+            &__number {
+              margin-bottom: 10px;
+            }
+          }
+        }
+      }
+
+      /* why keyboarda*/
+      .why-keyboarda-section {
+        margin-bottom: 70px;
+        .shape-on-text{
+          top: -127px;
+        }
+          .text-content{
+            margin-bottom: 50px;
+          }
+        .whyKeyboarda {
+          padding-right: 0;
+          margin-bottom: 50px;
+        }
+      }
+
+      .Consulting-demand-section {
+        .consulting-block {
+
+          .consultation {
+            margin-bottom: 20px;
+
+            &__title {
+              font-size: 22px;
+              margin-bottom: 14px;
+            }
+
+            &__text {
+              font-size: 14px;
+            }
+          }
+
+          .consultation-btn {
+            text-align: center;
+
+            .demand-btn {
+              padding: 12px 45px;
+            }
+          }
+        }
+      }
+
+      .Consulting-demand-section {
+        background-size: auto;
+        padding: 45px 12px 50px;
+
+        .consultation {
+
+          &__title {
+            font-size: 20px;
+          }
+
+          &__text {
+            font-size: 14px;
+            margin-bottom: 30px;
+          }
+        }
+
+        .consultation-btn {
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+/*
+  * Use => Mobile Screen
+  * Sizes => 576, 414, 375
+  * unit => PX
+  */
+@media (max-width: 576px) {
+  .layout {
+    .main-page {
+      /* all section heading*/
+      .section-heading {
+        font-size: 22px;
+      }
+
+
+      .technology-carousel-section {
+        .section-heading {
+          font-size: 19px;
+
+          &.right-left-zigzag-style {
+            span {
+              &:before, &:after {
+                display: none;
+              }
+            }
+          }
+        }
+
+        .technology-carousel-block {
+          &:before,
+          &:after {
+            width: 50px;
+          }
+        }
+      }
+    }
+
+    .block-copyright {
+      .copyright-content {
+        .en-text {
+          display: none;
+        }
+
+        .fa-text {
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 414px) {
+  .layout {
+    .main-page {
+      .keyboarda-team-section {
+
+        .shape-top-left {
+          display: none;
+        }
+      }
+
+      .services-section {
+        .solar-system {
+          visibility: hidden;
+        }
+      }
+
+      /*technology Brand Carousel*/
+      .technology-carousel-section {
+        .technology-carousel-block {
+          .technology-carousel-arrow {
+            &.button-next {
+              left: 40px;
+            }
+
+            &.button-prev {
+              right: 40px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 376px) {
+
+}

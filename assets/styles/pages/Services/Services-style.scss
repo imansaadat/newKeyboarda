@@ -1,0 +1,62 @@
+@import "../../_sass/variable";
+@import "../../_sass/mixins";
+
+.services-page {
+margin-top: 150px;
+
+  /*keyboarda-services*/
+  .services-section {
+    &.keyboarda-services {
+      margin-top: 150px;
+      margin-bottom: 120px;
+      position: relative;
+
+      .left-shape-services {
+        position: absolute;
+        max-width: 300px;
+        max-height: 300px;
+        top: -104px;
+        left: -85px;
+        z-index: -1;
+      }
+
+      .block-services {
+        .services {
+          margin-bottom: 70px;
+
+          &__text {
+            font-size: 16px;
+            color: #000000;
+            line-height: 28px;
+            text-align: center;
+            margin: 0;
+            padding: 0 200px;
+          }
+        }
+      }
+    }
+  }
+
+  /*get consultation*/
+  .get-consultation-section {
+    margin-bottom: 120px;
+    position: relative;
+  .shape-right-consultation{
+    position: absolute;
+    max-width: 300px;
+    max-height: 300px;
+    top: -20px;
+    right: -50px;
+    z-index: -1;
+  }
+    .get-consultation {
+      padding-right: 100px;
+
+      &__image {
+        max-width: 100%;
+      }
+    }
+  }
+}
+
+

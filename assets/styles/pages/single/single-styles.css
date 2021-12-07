@@ -1,0 +1,576 @@
+/*
+* Color Palette
+*/
+/* Single Blog */
+.single-wiki {
+  padding-top: 150px;
+  /* Article Block */
+}
+
+.single-wiki .article-block {
+  /* Post Content Block */
+  /* Author Box Section */
+  /* Related Post Section*/
+  /* Comment Section */
+}
+
+.single-wiki .article-block .content-block {
+  -webkit-box-shadow: 0 0 24px rgba(0, 0, 0, 0.06);
+          box-shadow: 0 0 24px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin-bottom: 60px;
+}
+
+.single-wiki .article-block .content-block.block-with-padding {
+  padding: 30px;
+}
+
+.single-wiki .article-block .post-content-block {
+  color: #1e272e;
+}
+
+.single-wiki .article-block .post-content-block .overview-post {
+  margin-bottom: 56px;
+}
+
+.single-wiki .article-block .post-content-block .overview-post .thumbnail-article img {
+  max-width: 100%;
+  min-height: 283px;
+  border-radius: 8px;
+}
+
+.single-wiki .article-block .post-content-block .overview-post .post-title {
+  margin: 0 0 20px;
+}
+
+.single-wiki .article-block .post-content-block .overview-post .post-title h2 {
+  margin: 0;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 36px;
+  min-height: 72px;
+}
+
+.single-wiki .article-block .post-content-block .overview-post .post-meta {
+  margin-bottom: 20px;
+}
+
+.single-wiki .article-block .post-content-block .overview-post .post-meta .icon {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 2px;
+}
+
+.single-wiki .article-block .post-content-block .overview-post .post-meta .meta-text {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 14px;
+}
+
+.single-wiki .article-block .post-content-block .overview-post .meta-post-info {
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.single-wiki .article-block .post-content-block .overview-post .meta-post-info .icon {
+  font-size: 15px;
+  position: relative;
+  top: 3px;
+  margin-left: 3px;
+}
+
+.single-wiki .article-block .post-content-block .overview-post .meta-post-info .cat-list {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.single-wiki .article-block .post-content-block .overview-post .meta-post-info .cat-list a {
+  color: #1e272e;
+}
+
+.single-wiki .article-block .post-content-block .content-post p {
+  font-size: 14px;
+  text-align: justify;
+  margin-bottom: 25px;
+  line-height: 27px;
+}
+
+.single-wiki .article-block .post-content-block .content-post h1, .single-wiki .article-block .post-content-block .content-post h2, .single-wiki .article-block .post-content-block .content-post h3 {
+  margin-bottom: 25px;
+}
+
+.single-wiki .article-block .post-content-block .content-post h4, .single-wiki .article-block .post-content-block .content-post h5, .single-wiki .article-block .post-content-block .content-post h6 {
+  margin-bottom: 20px;
+}
+
+.single-wiki .article-block .post-content-block .content-post h3 {
+  font-size: 20px;
+}
+
+.single-wiki .article-block .post-content-block .rating-block .title-rating {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.single-wiki .article-block .post-content-block .rating-block .rating-function .starts .start-item {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 24px;
+  line-height: 28px;
+  height: 28px;
+}
+
+.single-wiki .article-block .post-content-block .rating-block .rating-function .starts .start-item span {
+  color: #ffc600;
+  -webkit-transition: .3s;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.single-wiki .article-block .post-content-block .rating-block .rating-function .starts .start-item span:hover {
+  color: #eba300;
+}
+
+.single-wiki .article-block .author-box-section {
+  padding: 40px 60px 14px 55px;
+  margin-bottom: 60px;
+}
+
+.single-wiki .article-block .author-box-section .avatar-author {
+  padding-left: 16px;
+}
+
+.single-wiki .article-block .author-box-section .avatar-author img {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+}
+
+.single-wiki .article-block .author-box-section .col-author-box-content {
+  position: relative;
+  z-index: 1;
+  padding: 5px 24px 0 0;
+}
+
+.single-wiki .article-block .author-box-section .col-author-box-content:after, .single-wiki .article-block .author-box-section .col-author-box-content:before {
+  content: '\F10D';
+  position: absolute;
+  font-family: "fontello" !important;
+  font-style: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  z-index: -1;
+}
+
+.single-wiki .article-block .author-box-section .col-author-box-content:before {
+  top: -40px;
+  right: -50px;
+  font-size: 119px;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  color: #ecebeb;
+}
+
+.single-wiki .article-block .author-box-section .col-author-box-content:after {
+  bottom: 24px;
+  left: -25px;
+  font-size: 26px;
+  color: #e3e3e3;
+}
+
+.single-wiki .article-block .author-box-section .col-author-box-content .author-name-block {
+  color: #1e272e;
+  font-size: 14px;
+  margin-bottom: 14px;
+}
+
+.single-wiki .article-block .author-box-section .col-author-box-content .author-name-block .icon-pen {
+  position: relative;
+  top: 4px;
+}
+
+.single-wiki .article-block .author-box-section .col-author-box-content .author-biography {
+  color: #464646;
+  line-height: 25px;
+  font-size: 15px;
+  text-align: justify;
+  margin-bottom: 24px;
+}
+
+.single-wiki .article-block .author-box-section .col-author-box-content .author-biography p {
+  margin: 0;
+}
+
+.single-wiki .article-block .author-box-section .col-author-box-content .author-box-footer {
+  padding-left: 45px;
+}
+
+.single-wiki .article-block .author-box-section .col-author-box-content .author-box-footer .social-icons-block {
+  border-top: solid 1px #e3e3e3;
+  padding-top: 20px;
+}
+
+.single-wiki .article-block .author-box-section .col-author-box-content .author-box-footer .social-icons-block .social-icons {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.single-wiki .article-block .author-box-section .col-author-box-content .author-box-footer .social-icons-block .social-icons .social-item {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 16px;
+  margin-right: 3px;
+}
+
+.single-wiki .article-block .author-box-section .col-author-box-content .author-box-footer .social-icons-block .social-icons .social-item a {
+  color: #1e272e;
+  -webkit-transition: .3s;
+  transition: .3s;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.single-wiki .article-block .author-box-section .col-author-box-content .author-box-footer .social-icons-block .social-icons .social-item a:hover {
+  color: #555;
+}
+
+.single-wiki .article-block .author-box-section .col-author-box-content .author-box-footer .social-icons-block .social-label {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 20px;
+  font-size: 12px;
+  position: relative;
+  top: -2px;
+}
+
+.single-wiki .article-block .related-post-section {
+  margin-bottom: 30px;
+}
+
+.single-wiki .article-block .related-post-section .section-heading .h-text {
+  color: #1e272e;
+  font-size: 24px;
+  font-weight: 700;
+  display: inline-block;
+  margin-bottom: 31px;
+}
+
+.single-wiki .article-block .related-post-section .related-post-carousel-block .related-post-carousel {
+  position: relative;
+}
+
+.single-wiki .article-block .related-post-section .related-post-carousel-block .related-post-carousel:after, .single-wiki .article-block .related-post-section .related-post-carousel-block .related-post-carousel:before {
+  content: '';
+  position: absolute;
+  width: 200px;
+  top: -40px;
+  bottom: -40px;
+  z-index: 9;
+}
+
+.single-wiki .article-block .related-post-section .related-post-carousel-block .related-post-carousel:before {
+  right: -52px;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), color-stop(24%, rgba(255, 255, 255, 0)), color-stop(74%, #ffffff), to(#ffffff));
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 24%, #ffffff 74%, #ffffff 100%);
+}
+
+.single-wiki .article-block .related-post-section .related-post-carousel-block .related-post-carousel:after {
+  left: -52px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#ffffff), color-stop(26%, #ffffff), color-stop(76%, rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, 0)));
+  background-image: linear-gradient(to right, #ffffff 0%, #ffffff 26%, rgba(255, 255, 255, 0) 76%, rgba(255, 255, 255, 0) 100%);
+}
+
+.single-wiki .article-block .related-post-section .related-post-carousel-block .related-post-carousel .swiper-wrapper .swiper-slide {
+  width: 270px;
+}
+
+.single-wiki .article-block .related-post-section .related-post-carousel-block .related-post-carousel .swiper-wrapper .swiper-slide .item-inner {
+  -webkit-box-shadow: 0 0 24px rgba(0, 0, 0, 0.06);
+          box-shadow: 0 0 24px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+  background-color: #ffffff;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.single-wiki .article-block .related-post-section .related-post-carousel-block .related-post-carousel .swiper-wrapper .swiper-slide .item-inner a .thumbnail-post {
+  position: relative;
+}
+
+.single-wiki .article-block .related-post-section .related-post-carousel-block .related-post-carousel .swiper-wrapper .swiper-slide .item-inner a .thumbnail-post:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#ffffff), to(rgba(255, 255, 255, 0)));
+  background-image: linear-gradient(to top, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+  height: 66px;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.single-wiki .article-block .related-post-section .related-post-carousel-block .related-post-carousel .swiper-wrapper .swiper-slide .item-inner a .thumbnail-post img {
+  max-width: 100%;
+}
+
+.single-wiki .article-block .related-post-section .related-post-carousel-block .related-post-carousel .swiper-wrapper .swiper-slide .item-inner a .post-info {
+  padding: 5px 15px 15px;
+}
+
+.single-wiki .article-block .related-post-section .related-post-carousel-block .related-post-carousel .swiper-wrapper .swiper-slide .item-inner a .post-info .post-title {
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 3px;
+  color: #737373;
+}
+
+.single-wiki .article-block .related-post-section .related-post-carousel-block .related-post-carousel .swiper-wrapper .swiper-slide .item-inner a .post-info .post-excerpt {
+  font-size: 12px;
+  line-height: 22.34px;
+  margin-bottom: 10px;
+  color: #1e272e;
+}
+
+.single-wiki .article-block .related-post-section .related-post-carousel-block .related-post-carousel .swiper-wrapper .swiper-slide .item-inner a .post-info .post-footer .publish-date {
+  color: #74758f;
+  font-size: 12px;
+}
+
+.single-wiki .article-block .related-post-section .related-post-carousel-block .related-post-carousel .swiper-wrapper .swiper-slide .item-inner a .post-info .post-footer .more-link {
+  text-align: left;
+  color: #1e272e;
+  font-size: 12px;
+}
+
+.single-wiki .article-block .related-post-section .related-post-carousel-block .arrow-icon {
+  color: #324b6b;
+  position: absolute;
+  top: 45%;
+  width: calc(var(--swiper-navigation-size) / 44 * 27);
+  height: var(--swiper-navigation-size);
+  margin-top: calc(-1 * var(--swiper-navigation-size) / 2);
+  z-index: 10;
+  cursor: pointer;
+}
+
+.single-wiki .article-block .related-post-section .related-post-carousel-block .arrow-icon:hover:before {
+  color: #0b1e5f;
+}
+
+.single-wiki .article-block .related-post-section .related-post-carousel-block .arrow-icon:before {
+  font-family: "fontello" !important;
+  font-style: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  top: calc(50% - 7px);
+  font-size: 29px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.single-wiki .article-block .related-post-section .related-post-carousel-block .arrow-icon.next-arrow {
+  left: 0;
+  right: auto;
+  text-align: left;
+}
+
+.single-wiki .article-block .related-post-section .related-post-carousel-block .arrow-icon.next-arrow:before {
+  content: '\F104';
+}
+
+.single-wiki .article-block .related-post-section .related-post-carousel-block .arrow-icon.prev-arrow {
+  right: 0;
+  left: auto;
+  text-align: right;
+}
+
+.single-wiki .article-block .related-post-section .related-post-carousel-block .arrow-icon.prev-arrow:before {
+  content: '\F105';
+}
+
+.single-wiki .article-block .comment-layout {
+  padding: 30px;
+  margin-bottom: 30px;
+  /* Comment List */
+  /* Comment Post */
+}
+
+.single-wiki .article-block .comment-layout .section-heading {
+  margin-bottom: 30px;
+}
+
+.single-wiki .article-block .comment-layout .section-heading .h-text {
+  height: 26px;
+  color: #1e272e;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.single-wiki .article-block .comment-layout .comment-list {
+  margin-bottom: 30px;
+}
+
+.single-wiki .article-block .comment-layout .comment-list .comment-item {
+  margin-bottom: 30px;
+}
+
+.single-wiki .article-block .comment-layout .comment-list .comment-item:last-child {
+  margin-bottom: 0;
+}
+
+.single-wiki .article-block .comment-layout .comment-list .comment-item.replay {
+  padding-right: 70px;
+}
+
+.single-wiki .article-block .comment-layout .comment-list .comment-item.replay .comment-inner {
+  border: solid 1px #e4e4e4;
+  background: #fafafa;
+}
+
+.single-wiki .article-block .comment-layout .comment-list .comment-item .comment-inner {
+  border-radius: 5px;
+  border: solid 1px #e4e4e4;
+  padding: 30px;
+}
+
+.single-wiki .article-block .comment-layout .comment-list .comment-item .comment-inner .comment-heading {
+  margin-bottom: 26px;
+}
+
+.single-wiki .article-block .comment-layout .comment-list .comment-item .comment-inner .comment-heading .comment-avatar {
+  display: inline-block;
+  vertical-align: middle;
+  width: 57px;
+  margin-left: 25px;
+}
+
+.single-wiki .article-block .comment-layout .comment-list .comment-item .comment-inner .comment-heading .comment-avatar img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.single-wiki .article-block .comment-layout .comment-list .comment-item .comment-inner .comment-heading .comment-user-info {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.single-wiki .article-block .comment-layout .comment-list .comment-item .comment-inner .comment-heading .comment-user-info .comment-user-name {
+  color: #171718;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.single-wiki .article-block .comment-layout .comment-list .comment-item .comment-inner .comment-heading .comment-user-info .comment-publish-date {
+  color: #555559;
+  font-size: 12px;
+}
+
+.single-wiki .article-block .comment-layout .comment-list .comment-item .comment-inner .comment-heading .comment-replay {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 20px;
+  color: #324b6b;
+  margin-right: 26px;
+}
+
+.single-wiki .article-block .comment-layout .comment-list .comment-item .comment-inner .comment-heading .comment-like {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.single-wiki .article-block .comment-layout .comment-list .comment-item .comment-inner .comment-heading .comment-like .icon {
+  font-size: 19px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+
+.single-wiki .article-block .comment-layout .comment-list .comment-item .comment-inner .comment-heading .comment-like .icon.liked {
+  color: #fb2727;
+}
+
+.single-wiki .article-block .comment-layout .comment-list .comment-item .comment-inner .comment-heading .comment-like .like-count {
+  display: inline-block;
+  vertical-align: middle;
+  color: #1e272e;
+  font-size: 15px;
+  position: relative;
+  top: -3px;
+}
+
+.single-wiki .article-block .comment-layout .comment-list .comment-item .comment-inner .comment-content {
+  color: #696969;
+  font-size: 17px;
+  line-height: 25px;
+  text-align: justify;
+}
+
+.single-wiki .article-block .comment-layout .comment-list .comment-item .comment-inner .comment-content p {
+  margin: 0;
+}
+
+.single-wiki .article-block .comment-layout .comment-form {
+  margin-bottom: 4px;
+}
+
+.single-wiki .article-block .comment-layout .comment-form .field-block {
+  margin-bottom: 20px;
+}
+
+.single-wiki .article-block .comment-layout .comment-form .field-block .comment-form-label {
+  display: inline-block;
+  width: 100%;
+  color: #404040;
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.single-wiki .article-block .comment-layout .comment-form .field-block .comment-form-input {
+  display: inline-block;
+  width: 100%;
+  height: 35px;
+  border-radius: 25px;
+  border: 1px solid #b8b8b8;
+  padding: 0 15px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.single-wiki .article-block .comment-layout .comment-form .field-block .comment-form-input:focus {
+  border: 1px solid #727272;
+}
+
+.single-wiki .article-block .comment-layout .comment-form .field-block .comment-form-input.comment-form-textarea {
+  min-height: 106px;
+  padding: 15px;
+}
+
+.single-wiki .article-block .comment-layout .comment-form .field-block .submit-form {
+  height: 40px;
+  border-radius: 25px;
+  background-color: #324b6b;
+  padding: 0 41px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.single-wiki .article-block .comment-layout .comment-form .field-block .submit-form:hover {
+  background-color: #0b1e5f;
+}
+/*# sourceMappingURL=single-styles.css.map */
