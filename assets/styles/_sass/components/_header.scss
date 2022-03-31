@@ -1,156 +1,104 @@
 @use "../../_sass/variable" as *;
 @use "../../_sass/mixins" as *;
-/* main header */
-.main-header {
-  background-color: rgba(255, 255, 255, .8);
-  backdrop-filter: blur(18px);
-  box-shadow: 3.716px 3.346px 40px 0 rgb(43 43 43 / 10%);
+
+.header {
   width: 100%;
-  display: block;
   position: fixed;
-  z-index: 999;
+  left: 0;
   top: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(12px);
+  box-shadow: 3.716px 3.346px 40px 0 rgb(43 43 43 / 10%);
+  z-index: 999;
   transition: top 0.5s;
-  .header-content {
-    display: grid;
-    grid-template-columns: 2fr 9fr 1fr;
-    grid-template-rows:minmax(105px, auto);
+  img {
+    width: 60px;
+    height: 60px;
+  }
 
-    .logo {
-      align-self: center;
-
-      img {
-        width: 100%;
-        max-width: 85px;
-      }
+  .nav {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    &_list {
+      display: flex;
+      align-items: center;
+      margin: 0;
+      flex: 1;
+      justify-content: center;
+    }
+    &_item {
+      list-style: none;
+      margin: 0 30px;
     }
 
-    .main-navigation {
-      align-self: center;
-      transition: 1s;
-
-      .nav-bar {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        .items {
-          padding: 0 35px;
-
-          .link-items {
-            position: relative;
-            color: #737373;
-            font-size: 15px;
-            font-weight: 600;
-            transition: .3s;
-
-            &:before {
-              content: '';
-              position: absolute;
-              background-color: $Hover_color;
-              display: block;
-              height: 2px;
-              bottom: -5px;
-              right: 0;
-              left: 0;
-              transform: scale(0, 1);
-              transition: transform ease-in-out 250ms;
-            }
-
-            &:hover {
-              color: $Hover_color;
-
-              &:before {
-                transform: scale(1, 1);
-              }
-            }
-          }
+    &_link {
+      font-size: 15px;
+      font-weight: 500;
+      color: #737373;
+      position: relative;
+      transition: 0.3s ease-in-out;
+      &::after {
+        content: "";
+        position: absolute;
+        background-color: $Hover_color;
+        display: block;
+        height: 2px;
+        bottom: -5px;
+        right: 0;
+        left: 0;
+        transform: scale(0, 1);
+        transition: 0.3s ease-in-out;
+      }
+      &:hover {
+        color: $Hover_color;
+        &::after {
+          transform: scale(1);
         }
       }
     }
 
-    .responsive-menu {
-      align-self: center;
+    .hamMenu {
       display: none;
-
-      .icon-menu-1,.icon-cancel {
-        font-size: 30px;
-      }
+      cursor: pointer;
+      z-index: 2;
+      font-size: 30px;
     }
   }
 }
 
+@media (max-width: 768px) {
+  .header {
+    .nav {
+      justify-content: space-between;
+      align-items: center;
 
-@media (max-width: 992px) {
-  .main-header {
-
-    .header-content {
-      display: grid;
-      grid-template-rows:minmax(70px, auto);
-      grid-template-areas:
-              "logo logo bar"
-              "menu menu menu";
-
-      .logo {
-        grid-column: 1/2;
-        grid-area: logo;
+      &_logo {
+        z-index: 1;
       }
 
-      .main-navigation {
-        grid-column: 2/3;
-        grid-area: menu;
-        display: none;
-
-        .nav-bar {
-          flex-direction: column;
-          text-align: center;
-           transition: .5s;
-          .items {
-            width: 100%;
-            margin-bottom: 30px;
-
-            .link-items {
-
-              &:before {
-                display: block !important;
-              }
-            }
-          }
+      .hamMenu {
+        display: flex;
+      }
+      &_list {
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        top: -100vh;
+        right: 0;
+        background-color: #fff;
+        flex-direction: column;
+        transition: .4s ease-in-out;
+        &.active {
+          top:0;
         }
       }
-
-      .responsive-menu {
-        grid-column: 3/4;
-        grid-area: bar;
-        display: block;
-        margin-right: auto;
-        cursor: pointer;
-        .icon {
-          font-size: 20px;
-        }
+      &_item {
+        margin: 20px;
       }
-
-      .toggle {
-        display: block;
+      &_link {
+        font-size: 19px;
       }
     }
   }
 }
-
-.responsiveNav {
-  animation: smoothNav 450ms ease-in-out;
-}
-
-@keyframes smoothNav {
-  0% {
-    transform: translateX(-70px);
-    opacity: 0;
-  }
-  100%{
-    transform: translateX(0px);
-    opacity: 1;
-  }
-}
-

@@ -10,7 +10,6 @@
     padding: 0 30px;
   }
 }
-
 /*
   * Use => Tablet Screen
   * Sizes => 992, 767
@@ -18,21 +17,18 @@
   */
 @media (max-width: 992px) {
   .index-body .modal_form .content .form-block {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 100%;
-            flex: 0 0 100%;
+    flex: 0 0 100%;
   }
   .index-body .modal_form .content .form_img {
     display: none;
   }
   .index-body .layout .text-content .knowMore,
-  .index-body .layout .text-content .consultation,
-  .index-body .layout .text-content .see-Services {
+.index-body .layout .text-content .consultation,
+.index-body .layout .text-content .see-Services {
     text-align: center;
     margin-bottom: 50px !important;
   }
 }
-
 @media (max-width: 768px) {
   .index-body .layout .footer .footer-content {
     padding: 40px 15px 10px;
@@ -44,13 +40,12 @@
     padding-right: 20px;
   }
   .index-body .layout .text-content .knowMore,
-  .index-body .layout .text-content .consultation,
-  .index-body .layout .text-content .see-Services {
+.index-body .layout .text-content .consultation,
+.index-body .layout .text-content .see-Services {
     text-align: center;
     margin-bottom: 80px !important;
   }
 }
-
 /*
   * Use => Mobile Screen
   * Sizes => 576, 414, 375
@@ -74,7 +69,6 @@
     text-align: center;
   }
 }
-
 /*
   * Use => Desktop and Large Screen Tablet
   * Sizes => 1920, 1400, 1200, 1024
@@ -88,7 +82,6 @@
     display: none;
   }
 }
-
 /*
   * Use => Tablet Screen
   * Sizes => 992, 768
@@ -120,7 +113,6 @@
     padding: 0 48px;
   }
 }
-
 /*
   * Use => Mobile Screen
   * Sizes => 576, 414, 375
@@ -135,11 +127,9 @@
     padding: 0 10px;
   }
 }
-
 @media (max-width: 414px) {
   .layout .services-page .services-section.keyboarda-services .block-services .services__text {
     padding: 0 42px;
     text-align: justify;
   }
-}
-/*# sourceMappingURL=services-styles.css.map */
+}/*# sourceMappingURL=services-styles.css.map */

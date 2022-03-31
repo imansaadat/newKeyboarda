@@ -83,7 +83,9 @@
 * {
   outline: none !important;
   text-decoration: none !important;
+  padding: 0;
 }
+
 
 input,
 textarea,
@@ -137,7 +139,6 @@ body {
   text-align: right;
   overflow-x: hidden;
   direction: rtl;
-  padding: 0 !important;
 }
 
 .overflow-hidden {
@@ -173,7 +174,7 @@ body {
 
 /* All Image */
 img {
-  height: auto;
+ max-width: 100%;
 }
 
 /* Layout */

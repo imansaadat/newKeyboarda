@@ -1,46 +1,30 @@
-/* header js(Responsive) */
-let menu = document.querySelector(".responsive-menu .icon-menu-1");
-let mainNavigation = document.querySelector(".main-navigation");
-let linkItems = document.querySelector(".link-items");
-let layout = document.querySelector(".layout");
-menu.addEventListener("click", () => {
-    if (menu.className === "icon-menu-1") {
-        mainNavigation.classList.toggle("toggle");
-        mainNavigation.classList.toggle("responsiveNav");
-        menu.className = "icon-cancel";
+/* menu (Responsive) */
+let menu = document.querySelector('.nav_list')
+let menuIcon = document.querySelector('.icon-menu-1')
+menuIcon.addEventListener('click',()=>{
+    menu.classList.toggle('active');
+    if(menuIcon.className == 'icon-menu-1'){
+        menuIcon.className = 'icon-cancel'
         document.documentElement.style.overflowY = "hidden";
-
-    } else {
-        mainNavigation.classList.toggle("toggle");
-        mainNavigation.classList.toggle("responsiveNav");
-        menu.className = "icon-menu-1";
-        document.documentElement.style.overflowY = "visible";
     }
-});
+    else{
+        menuIcon.className ='icon-menu-1'
+        document.documentElement.style.overflowY = "auto";
+    }
+})
+
 /* custom header */
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function () {
     var currentScrollPos = window.pageYOffset;
     if (prevScrollpos > currentScrollPos) {
-        document.querySelector(".main-header").style.top = "0";
+        document.querySelector(".header").style.top = "0";
 
-    } else if(window.innerWidth >992) {
-        document.querySelector(".main-header").style.top = "-105px";
+    } else if(window.innerWidth > 992) {
+        document.querySelector(".header").style.top = "-105px";
     }
     prevScrollpos = currentScrollPos;
 };
-
-/* toggle menu when the back to top button was clicked */
-let backTop = document.querySelector(".back-to-top");
-backTop.addEventListener("click", () => {
-    if (menu.className === "icon-menu-1") {
-        menu.className = "icon-menu-1";
-    } else {
-        mainNavigation.classList.toggle("toggle");
-        menu.className = "icon-menu-1";
-        document.documentElement.style.overflowY = "visible";
-    }
-})
 
  /* latest project */
 var swiper = new Swiper('.swiper-container-project', {

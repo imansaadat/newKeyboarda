@@ -5,26 +5,21 @@
   margin-top: 150px;
   /*contact us section */
 }
-
 .contact-us-page .contact-us-section {
   margin-bottom: 80px;
 }
-
 .contact-us-page .contact-us-section .section-heading {
   margin-bottom: 30px;
 }
-
 .contact-us-page .contact-us-section .contact__text {
   font-size: 17px;
   color: #1e272e;
   text-align: justify;
   margin-bottom: 30px;
 }
-
 .contact-us-page .contact-us-section .contact__form-block .field-block {
   margin-bottom: 20px;
 }
-
 .contact-us-page .contact-us-section .contact__form-block .field-block .field-label {
   width: 100%;
   color: #1e272e;
@@ -32,11 +27,9 @@
   font-weight: 500;
   display: inline-block;
 }
-
 .contact-us-page .contact-us-section .contact__form-block .field-block .field-label .required-star {
   color: #EA2027;
 }
-
 .contact-us-page .contact-us-section .contact__form-block .field-block .field-input {
   width: 100%;
   height: 45px;
@@ -47,11 +40,9 @@
   border-radius: 25px;
   caret-color: #0b1e5f;
 }
-
 .contact-us-page .contact-us-section .contact__form-block .field-block .field-input:focus {
   border: 1px solid #1e272e;
 }
-
 .contact-us-page .contact-us-section .contact__form-block .field-block .field-input.content-message {
   height: 235px;
   max-height: 235px;
@@ -59,7 +50,6 @@
   line-height: 27px;
   padding: 14px 16px;
 }
-
 .contact-us-page .contact-us-section .contact__form-block .field-block .submit-field {
   color: #ffffff;
   height: 50px;
@@ -67,35 +57,27 @@
   border: none;
   font-size: 18px;
   font-weight: 500;
-  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
-
 .contact-us-page .contact-us-section .contact__form-block .field-block .submit-field:hover {
   background-color: #0b1e5f;
 }
-
 .contact-us-page .contact-us-section .contact-us-img {
   padding-right: 90px;
 }
-
 .contact-us-page .contact-us-section .contact-us {
   padding-right: 60px;
 }
-
 .contact-us-page .contact-us-section .contact-us .contact-us-info {
   display: inline-block;
 }
-
 .contact-us-page .contact-us-section .contact-us .contact-us-info .title {
   font-size: 17px;
   font-weight: 500;
   color: #1e272e;
 }
-
 .contact-us-page .contact-us-section .contact-us .contact-us-info .icon {
   font-size: 25px;
   display: inline-block;
   vertical-align: middle;
-}
-/*# sourceMappingURL=contact-us-style.css.map */
+}/*# sourceMappingURL=contact-us-style.css.map */

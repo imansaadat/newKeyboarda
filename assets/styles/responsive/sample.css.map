@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAAA;;;;IAII;AAiBJ;;;;IAII;AASJ;;;;IAII",
-    "sources": [
-        "sample.scss"
-    ],
-    "names": [],
-    "file": "sample.css"
-}
+{"version":3,"sources":["sample.scss"],"names":[],"mappings":"AAAA;;;;GAAA;AAqBA;;;;GAAA;AAaA;;;;GAAA","file":"sample.css"}

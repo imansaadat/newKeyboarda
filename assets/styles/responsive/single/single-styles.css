@@ -10,7 +10,6 @@
     padding: 0 30px;
   }
 }
-
 /*
   * Use => Tablet Screen
   * Sizes => 992, 767
@@ -18,21 +17,18 @@
   */
 @media (max-width: 992px) {
   .index-body .modal_form .content .form-block {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 100%;
-            flex: 0 0 100%;
+    flex: 0 0 100%;
   }
   .index-body .modal_form .content .form_img {
     display: none;
   }
   .index-body .layout .text-content .knowMore,
-  .index-body .layout .text-content .consultation,
-  .index-body .layout .text-content .see-Services {
+.index-body .layout .text-content .consultation,
+.index-body .layout .text-content .see-Services {
     text-align: center;
     margin-bottom: 50px !important;
   }
 }
-
 @media (max-width: 768px) {
   .index-body .layout .footer .footer-content {
     padding: 40px 15px 10px;
@@ -44,13 +40,12 @@
     padding-right: 20px;
   }
   .index-body .layout .text-content .knowMore,
-  .index-body .layout .text-content .consultation,
-  .index-body .layout .text-content .see-Services {
+.index-body .layout .text-content .consultation,
+.index-body .layout .text-content .see-Services {
     text-align: center;
     margin-bottom: 80px !important;
   }
 }
-
 /*
   * Use => Mobile Screen
   * Sizes => 576, 414, 375
@@ -74,7 +69,6 @@
     text-align: center;
   }
 }
-
 /*
     * Use => Tablet Screen
     * Sizes => 992, 767
@@ -101,7 +95,6 @@
     font-size: 80px;
   }
 }
-
 /*
     * Use => Mobile Screen
     * Sizes => 576, 414, 375
@@ -120,7 +113,7 @@
     margin-bottom: 25px;
   }
   .single-wiki .article-block .post-content-block .rating-block .title-rating,
-  .single-wiki .article-block .post-content-block .rating-block .starts {
+.single-wiki .article-block .post-content-block .rating-block .starts {
     font-size: 20px;
     text-align: center;
     margin: 8px 0;
@@ -148,12 +141,8 @@
     margin-bottom: 20px;
   }
   .single-wiki .article-block .comment-layout .comment-list .comment-item .comment-inner .comment-heading .comment-result {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
   }
   .single-wiki .article-block .comment-layout .comment-list .comment-item.replay {
     padding-right: 20px;
@@ -161,5 +150,4 @@
   .single-wiki .article-block .comment-layout .comment-form .field-block .submit-form {
     width: 100%;
   }
-}
-/*# sourceMappingURL=single-styles.css.map */
+}/*# sourceMappingURL=single-styles.css.map */
